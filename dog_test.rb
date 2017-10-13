@@ -7,7 +7,7 @@ class DogTest < Minitest::Test
 		@dog = Dog.new("Dog")
 	end
 
-	def test_initialize_with_no_params
+	def test_initialize_with_param
 		assert_equal "Dog", @dog.name
 	end
 
